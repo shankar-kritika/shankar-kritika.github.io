@@ -65,7 +65,7 @@ header .navbar
     flex-direction: row;
     flex-wrap:wrap;
     width: 140%;
-    height: 50vh;
+    height: 80vh;
 }
 header .navbar ul
 {
