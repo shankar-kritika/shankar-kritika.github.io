@@ -54,7 +54,7 @@ header .brand-name a
 }
 header .fixed .brand-name a
 {
-    color: black; 
+    color: white; 
 }
 header .navbar
 {
@@ -84,7 +84,7 @@ header .navbar ul li a
     font-size: 15px;
     text-decoration:none;
     line-height: 72px;
-    color:black;
+    color:white;
     display: block;
     font-weight: 600;
     position: relative;
@@ -93,7 +93,7 @@ header .navbar ul li a::before
 {
     content:'';
     height: 3px;
-    background-color:black;
+    background-color:white;
     width:0%;
     position: absolute;
     right:0px;
@@ -123,7 +123,7 @@ margin-bottom: 35px;
     font-size: 35px;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: white;
     margin: 0 0 5px;
     position: relative;
     padding:5px;
@@ -142,7 +142,7 @@ margin-bottom: 35px;
 .home
 {
     min-height: 100vh;
-    background-image:url("Images/bgimage.jpeg");
+    background-image:url("Images/bgimage.jpg");
     background-size: cover;
     background-position: centre;
     padding: 15px;
@@ -178,7 +178,7 @@ margin-bottom: 35px;
 }
 .home .home-content .block h1
 {
-    color:black;
+    color:white;
     font-size: 60px;
     font-weight: 600;
     margin: 0;
@@ -187,7 +187,7 @@ margin-bottom: 35px;
 }
 .home .home-content .block h3
 {
-    color:black;
+    color:white;
     font-size: 20px;
     font-weight: 500;
     margin:0;
@@ -200,8 +200,8 @@ margin-bottom: 35px;
 .home .home-content .block .resume a
 {
 border-radius: 4px;
-color: black;
-border: 1px solid black;
+color: white;
+border: 1px solid white;
 padding: 5px 25px;
 text-decoration: none;
 display: inline-block;
@@ -213,8 +213,8 @@ background-color: transparent;
 }
 .home .home-content .block .resume a:hover
 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
