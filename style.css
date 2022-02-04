@@ -313,6 +313,7 @@ color:black;
     line-height: 24px;
     color: #838383;
 }
+
 .about .about-content .text .social-link
 {
    padding-top: 20px;
@@ -329,10 +330,24 @@ color:black;
     text-align: center;
     margin:10px 1px;
 }
-.about .about-content .text .social-link a .fa
+.about .about-content .text .social-link a .fa:hover
 {
-    color:white;
-    font-size: 12px;
+    opacity: 0.3;
+}
+      
+/* Set a specific color for each brand */
+/* linked */
+.about .about-content .text .social-link a .fa-linkedin 
+{   
+    background: black;
+    color: white;
+}
+      
+/* github */
+.about .about-content .text .social-link a .fa-github 
+{
+    background: black ;
+    color: white;
 }
 
 /* Skills */
