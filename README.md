@@ -1,1 +1,0 @@
-# shankar-kritika.github.io
