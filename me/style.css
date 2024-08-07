@@ -423,6 +423,20 @@ height: 100%;
     top: -20px;
 }
 
+/* Projects */
+.projects 
+{
+    min-height: 100vh;
+    background-image:url("Images/project.jpg");
+    background-size: cover;
+    background-position: centre;
+    padding: 15px;
+    }
+.projects .full-screen
+{
+    /* background-color: grey; */
+    min-height: 100vh;
+}
 /* Contact--us */
 .contact .section-title
 {
